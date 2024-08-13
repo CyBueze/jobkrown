@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Krown School</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
+  <link rel="stylesheet" href="./krown.css">
+  <style>
+  .main-hero {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .text-content {
+    padding-top: 20px;
+  }
+
+  .text-content h1 {
+    color: white;
+  }
+
+  .text-content p, .text-content small {
+    color: white;
+  }
+
+  .timer {
+    margin: 20px 0;
+    color: #36a8b2;
+  }
+
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    margin-top: 1rem;
+  }
+
+  .form-container input {
+    max-width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  .form-container button {
+    background-color: #6701ff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+  }
+
+  .text-content small {
+    display: block;
+    margin-top: 1rem;
+    text-align: center ;
+    color: #555;
+  }
+
+  @media (min-width: 768px) {
+    .main-hero {
+      grid-template-columns: 1fr 1fr;
+      text-align: left;
+    }
+
+    .text-content {
+      margin-left: 15px;
+      padding-top: 100px;
+      text-align: left;
+    }
+    
+    .text-content small{
+      text-align: left;
+    }
+
+    .form-container {
+      flex-direction: row;
+    }
+
+    .form-container input {
+      max-width: 200px;
+    }
+  }
+  
+  .video-writeup-container {
+    display: flex;
+    gap: 20px;
+    padding: 40px;
+    flex-wrap: wrap;
+  }
+
+  .video-section, .writeup-section {
+    flex: 1;
+    min-width: 300px; /* Adjust to ensure responsiveness */
+    box-sizing: border-box;
+  }
+
+  .video-section iframe {
+    width: 100%;
+    height: 300px;
+    border: none;
+  }
+
+  .writeup-section h6,.writeup-section p {
+    color: #36a8b2;
+  }
+
+  .writeup-section h6 {
+    margin: 0 0 10px;
+  }
+
+  .writeup-section h2 {
+    margin: 0 0 10px;
+  }
+
+  .writeup-section p, .writeup-section small {
+    display: block;
+    margin: 5px 0;
+  }
+
+  .writeup-section button {
+    background-color: #6701ff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .video-writeup-container {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .video-section iframe {
+      height: 200px; /* Adjust height for smaller screens */
+    }
+  }
+
+</style>
+
+ 
+</head>
+<body>
+  <section class="pico" style="margin-bottom: 20px">
+    <nav class="container-fluid" style="background-color:#36a8b2">
+      <ul>
+        <img style="width:40px; height:40px" src="https://school.cryptobanter.com/assets/logo_CryptoSchool-626x556-ef88c927.png" alt="hko">
+        <li><h4><strong style="color:white">CRYPTO <br> SCHOOL</strong></h4></li>
+      </ul>
+      <ul>
+        <li><button style="background-color:black;">Login</button></li>
+      </ul>
+    </nav>
+  </section>
+
+  <main class="container-fluid" style="margin-bottom: 20px">
+  
+<div class="main-hero">
+  <div class="text-content">
+    <h1>Trade the Wall Street Way</h1>
+    <p>Protect your funds while it grows</p>
+    <small>Your first live masterclass starts in:</small>
+    <div class="timer">
+      <h2 style="color:#36a8b2">00:56:02</h2>
+    </div>
+    <small class="text-yellow-400">Claim free spot now. Limited seats available</small>
+    <div class="form-container">
+      <input type="text" name="text" placeholder="Enter your email" aria-label="Text" class="small">
+      <button class="small">Sign up</button>
+    </div>
+    <small>No credit card required.</small>
+  </div>
+
+  <div style="display: flex; align-items: center; justify-content: center;">
+    <img src="https://school.cryptobanter.com/assets/Krown/fce326d8eadd399b6565e6f3d26031a4.png" alt="Hero Image" style="max-width: 100%; height: auto;">
+  </div>
+</div>
+
+    
+    <div style="border: 1px solid #6701ff; border-left: none; border-right:none; margin-top:40px">
+    <h2 style="text-align: center; padding-top: 30px; padding-bottom: 16px">Supported by the world's most respected trading platforms</h2>
+    <div style="margin-top: 20px; display: flex; justify-content: center; align-items: center; flex-wrap: wrap; padding: 20px;">
+        <img src="https://school.cryptobanter.com/assets/Prime_XBT_logo_Light-483a9fb3.svg" alt="Logo" style="width: 100px; margin: 10px;">
+        <img src="https://school.cryptobanter.com/assets/Prime_XBT_logo_Light-483a9fb3.svg" alt="Logo" style="width: 100px; margin: 10px;">
+        <img src="https://school.cryptobanter.com/assets/Prime_XBT_logo_Light-483a9fb3.svg" alt="Logo" style="width: 100px; margin: 10px;">
+        <img src="https://school.cryptobanter.com/assets/Prime_XBT_logo_Light-483a9fb3.svg" alt="Logo" style="width: 100px; margin: 10px;">
+        <img src="https://school.cryptobanter.com/assets/Prime_XBT_logo_Light-483a9fb3.svg" alt="Logo" style="width: 100px; margin: 10px;">
+        <img src="https://school.cryptobanter.com/assets/Prime_XBT_logo_Light-483a9fb3.svg" alt="Logo" style="width: 100px; margin: 10px;">
+        <img src="https://school.cryptobanter.com/assets/Prime_XBT_logo_Light-483a9fb3.svg" alt="Logo" style="width: 100px; margin: 10px;">
+        <img src="https://school.cryptobanter.com/assets/Prime_XBT_logo_Light-483a9fb3.svg" alt="Logo" style="width: 100px; margin: 10px;">
+        <img src="https://school.cryptobanter.com/assets/Prime_XBT_logo_Light-483a9fb3.svg" alt="Logo" style="width: 100px; margin: 10px; padding-bottom: 10px">
+    </div>
+</div>
+<article style="padding: 40px; text-align: center; background-color: #000000; color: #ffffff;">
+  <h2 style="color: #36a8b2;">Trade Any Market With Confidence</h2>
+  <div style="display: flex; justify-content: space-around; align-items: flex-start; flex-wrap: wrap; gap: 20px;">
+    
+    <div style="flex: 1 1 calc(33% - 40px); padding: 20px;">
+      <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%2336a8b2'><path d='M12 17.27l5.18 3.09-1.39-6.06L19.82 9l-6.12-.52L12 3 10.3 8.48 4.18 9l4.04 4.3-1.31 6.01L12 17.27z'/></svg>" alt="Understand Market Trends" style="width: 60px; height: 60px;">
+      <p style="color: #36a8b2; font-weight: bold; margin-top: 10px;">Understand Market Trends</p>
+      <small style="color: #ffffff;">Learn how prices move to predict market directions</small>
+    </div>
+
+    <div style="flex: 1 1 calc(33% - 40px); padding: 20px;">
+      <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%2336a8b2'><path d='M12 3v18c-5.52 0-10-4.48-10-10s4.48-10 10-10zm0 18V6c4.41 0 8 3.59 8 8s-3.59 8-8 8z'/></svg>" alt="Master Volatility" style="width: 60px; height: 60px;">
+      <p style="color: #36a8b2; font-weight: bold; margin-top: 10px;">Master Volatility</p>
+      <small style="color: #ffffff;">Use Nobel-winning math models to turn swings into profit</small>
+    </div>
+
+    <div style="flex: 1 1 calc(33% - 40px); padding: 20px;">
+      <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%2336a8b2'><path d='M14 3h7v7h-7zM3 13h7v7H3z'/></svg>" alt="Setup Confluence" style="width: 60px; height: 60px;">
+      <p style="color: #36a8b2; font-weight: bold; margin-top: 10px;">Setup Confluence</p>
+      <small style="color: #ffffff;">Combine multiple indicators for precise, confident trades. Go all in!</small>
+    </div>
+
+  </div>
+</article>
+
+  
+
+
+
+
+     
+   <article class="carousel" style="padding:40px; text-align: left;">
+  <h2>Tired of Gambling? Learn From a Top-Tier Expert Trader</h2>
+  <div class="carousel-container" style="display: flex; gap: 20px; overflow-x: auto;">  <div class="carousel-item" style="min-width: 200px;">
+      <div style="display: flex; align-items: center;">
+        <img src="https://www.svgrepo.com/show/239997/star-rate.svg" alt="star reviews" style="filter: invert(31%) sepia(86%) saturate(4465%) hue-rotate(254deg) brightness(89%) contrast(107%); width: 20px;">
+        <img src="https://www.svgrepo.com/show/239997/star-rate.svg" alt="star reviews" style="filter: invert(31%) sepia(86%) saturate(4465%) hue-rotate(254deg) brightness(89%) contrast(107%); width: 20px;">
+        <img src="https://www.svgrepo.com/show/239997/star-rate.svg" alt="star reviews" style="filter: invert(31%) sepia(86%) saturate(4465%) hue-rotate(254deg) brightness(89%) contrast(107%); width: 20px;">
+        <img src="https://www.svgrepo.com/show/239997/star-rate.svg" alt="star reviews" style="filter: invert(31%) sepia(86%) saturate(4465%) hue-rotate(254deg) brightness(89%) contrast(107%); width: 20px;">
+        <img src="https://www.svgrepo.com/show/239997/star-rate.svg" alt="star reviews" style="filter: invert(31%) sepia(86%) saturate(4465%) hue-rotate(254deg) brightness(89%) contrast(107%); width: 20px;">
+      </div>
+      <p style="padding-top:8px">Life-changing experience! I was able to begin trading and earn profits after i joined this school</p>
+      <small style="padding-top:4px; color:gray;">@alex</small>
+      <p style="color:#6701ff">YouTube</p>
+    </div>
+   
+
+    <!-- Repeat this block for each carousel item -->
+    <div class="carousel-item" style="min-width: 200px;">
+      <div style="display: flex; align-items: center;">
+        <img src="https://www.svgrepo.com/show/239997/star-rate.svg" alt="star reviews" style="filter: invert(31%) sepia(86%) saturate(4465%) hue-rotate(254deg) brightness(89%) contrast(107%); width: 20px;">
+        <img src="https://www.svgrepo.com/show/239997/star-rate.svg" alt="star reviews" style="filter: invert(31%) sepia(86%) saturate(4465%) hue-rotate(254deg) brightness(89%) contrast(107%); width: 20px;">
+        <img src="https://www.svgrepo.com/show/239997/star-rate.svg" alt="star reviews" style="filter: invert(31%) sepia(86%) saturate(4465%) hue-rotate(254deg) brightness(89%) contrast(107%); width: 20px;">
+        <img src="https://www.svgrepo.com/show/239997/star-rate.svg" alt="star reviews" style="filter: invert(31%) sepia(86%) saturate(4465%) hue-rotate(254deg) brightness(89%) contrast(107%); width: 20px;">
+        <img src="https://www.svgrepo.com/show/239997/star-rate.svg" alt="star reviews" style="filter: invert(31%) sepia(86%) saturate(4465%) hue-rotate(254deg) brightness(89%) contrast(107%); width: 20px;">
+      </div>
+      <p style="padding-top:8px">Life-changing experience! I was able to begin trading and earn profits after i joined this school</p>
+      <small style="padding-top:4px; color:gray;">@alex</small>
+      <p style="color:#6701ff">YouTube</p>
+    </div>
+    
+        <div class="carousel-item" style="min-width: 200px;">
+      <div style="display: flex; align-items: center;">
+        <img src="https://www.svgrepo.com/show/239997/star-rate.svg" alt="star reviews" style="filter: invert(31%) sepia(86%) saturate(4465%) hue-rotate(254deg) brightness(89%) contrast(107%); width: 20px;">
+        <img src="https://www.svgrepo.com/show/239997/star-rate.svg" alt="star reviews" style="filter: invert(31%) sepia(86%) saturate(4465%) hue-rotate(254deg) brightness(89%) contrast(107%); width: 20px;">
+        <img src="https://www.svgrepo.com/show/239997/star-rate.svg" alt="star reviews" style="filter: invert(31%) sepia(86%) saturate(4465%) hue-rotate(254deg) brightness(89%) contrast(107%); width: 20px;">
+        <img src="https://www.svgrepo.com/show/239997/star-rate.svg" alt="star reviews" style="filter: invert(31%) sepia(86%) saturate(4465%) hue-rotate(254deg) brightness(89%) contrast(107%); width: 20px;">
+        <img src="https://www.svgrepo.com/show/239997/star-rate.svg" alt="star reviews" style="filter: invert(31%) sepia(86%) saturate(4465%) hue-rotate(254deg) brightness(89%) contrast(107%); width: 20px;">
+      </div>
+      <p style="padding-top:8px">Life-changing experience! I was able to begin trading and earn profits after i joined this school</p>
+      <small style="padding-top:4px; color:gray;">@alex</small>
+      <p style="color:#6701ff">YouTube</p>
+    </div>
+    
+        <div class="carousel-item" style="min-width: 200px;">
+      <div style="display: flex; align-items: center;">
+        <img src="https://www.svgrepo.com/show/239997/star-rate.svg" alt="star reviews" style="filter: invert(31%) sepia(86%) saturate(4465%) hue-rotate(254deg) brightness(89%) contrast(107%); width: 20px;">
+        <img src="https://www.svgrepo.com/show/239997/star-rate.svg" alt="star reviews" style="filter: invert(31%) sepia(86%) saturate(4465%) hue-rotate(254deg) brightness(89%) contrast(107%); width: 20px;">
+        <img src="https://www.svgrepo.com/show/239997/star-rate.svg" alt="star reviews" style="filter: invert(31%) sepia(86%) saturate(4465%) hue-rotate(254deg) brightness(89%) contrast(107%); width: 20px;">
+        <img src="https://www.svgrepo.com/show/239997/star-rate.svg" alt="star reviews" style="filter: invert(31%) sepia(86%) saturate(4465%) hue-rotate(254deg) brightness(89%) contrast(107%); width: 20px;">
+        <img src="https://www.svgrepo.com/show/239997/star-rate.svg" alt="star reviews" style="filter: invert(31%) sepia(86%) saturate(4465%) hue-rotate(254deg) brightness(89%) contrast(107%); width: 20px;">
+      </div>
+      <p style="padding-top:8px">Life-changing experience! I was able to begin trading and earn profits after i joined this school</p>
+      <small style="padding-top:4px; color:gray;">@alex</small>
+      <p style="color:#6701ff">YouTube</p>
+    </div>
+    <!-- Repeat block ends -->
+  </div>
+</article>
+
+
+    
+<!-- YouTube Video and Write-up Section -->
+<article class="video-writeup-container">
+  <div class="video-section">
+    <iframe src="https://www.youtube.com/embed/vOXqSiU8_e8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+  <div class="writeup-section">
+    <h6>Your Ultimate Trading Breakthrough</h6>
+    <h2>Your TA into a Smart Tool</h2>
+    <p>Beat Wall Street at its own game.</p>
+    <small>10X your profits using hedge fund models taught in the simplest way.</small>
+    <p>Exclusive guidance from professionals</p>
+    <small>Get support from Eric Krown & expert traders in the Crypto School team</small>
+    <p>Join A Global Community Of 45,000+</p>
+    <small>Boost your drive; connect, learn and grow with peers from over 175+ countries.</small>
+    <div style="margin-top: 10px">
+      <button>Sign up</button>
+    </div>
+  </div>
+</article>
+    
+    
+    <article style="text-align: center; background-color: #36a8b2; padding: 40px;">
+  <div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-start;">
+    <div style="flex: 1; padding: 0 20px; box-sizing: border-box;">
+      <h3 style="font-style: italic; color: black;">Master Price Prediction</h3>
+      <small style="color: black;">Use Mathematical price models & frameworks</small>
+    </div>
+    <div style="flex: 1; padding: 0 20px; box-sizing: border-box;">
+      <h3 style="font-style: italic; color: black;">No Emotion</h3>
+      <small style="color: black;">Trade based on data, not gut feeling</small>
+    </div>
+    <div style="flex: 1; padding: 0 20px; box-sizing: border-box;">
+      <h3 style="font-style: italic; color: black;">Master Price Prediction</h3>
+      <small style="color: black;">Use Mathematical price models & frameworks</small>
+    </div>
+    <div style="flex: 1; padding: 0 20px; box-sizing: border-box;">
+      <h3 style="font-style: italic; color: black;">Bespoke</h3>
+      <small style="color: black;">Develop and apply your own strategy in any market</small>
+    </div>
+  </div>
+</article>
+
+  
+
+    
+  <details class="dropdown" style="margin-top: 20px; background-color: #6701ff; border-radius: 8px; padding: 10px; color: #ffffff;">
+  <summary role="button" style="cursor: pointer; font-size: 1.2em; font-weight: bold; padding: 10px; background-color: #5501cc; border: none; border-radius: 8px; color: #ffffff;">
+    Krown Trading School (Curriculum)
+  </summary>
+  <ul style="list-style: none; padding: 0; margin: 0; background-color: #6701ff;">
+    <li><a href="#" style="display: block; padding: 10px; color: #ffffff; text-decoration: none; border-bottom: 1px solid #5501cc;">Lesson 0 - Onboarding</a></li>
+    <li><a href="#" style="display: block; padding: 10px; color: #ffffff; text-decoration: none; border-bottom: 1px solid #5501cc;">Lesson 1 - Intro to the course</a></li>
+    <li><a href="#" style="display: block; padding: 10px; color: #ffffff; text-decoration: none; border-bottom: 1px solid #5501cc;">Lesson 2 - Trends</a></li>
+    <li><a href="#" style="display: block; padding: 10px; color: #ffffff; text-decoration: none; border-bottom: 1px solid #5501cc;">Lesson 3 - Volatility</a></li>
+    <li><a href="#" style="display: block; padding: 10px; color: #ffffff; text-decoration: none; border-bottom: 1px solid #5501cc;">Lesson 4 - Momentum</a></li>
+    <li><a href="#" style="display: block; padding: 10px; color: #ffffff; text-decoration: none; border-bottom: 1px solid #5501cc;">Lesson 5 - Building the Trading System</a></li>
+    <li><a href="#" style="display: block; padding: 10px; color: #ffffff; text-decoration: none; border-bottom: 1px solid #5501cc;">Lesson 6 - Take Profits (PMARP - Improving your system)</a></li>
+    <li><a href="#" style="display: block; padding: 10px; color: #ffffff; text-decoration: none; border-bottom: 1px solid #5501cc;">Lesson 7 - Risk Management (Improving your system)</a></li>
+    <li><a href="#" style="display: block; padding: 10px; color: #ffffff; text-decoration: none; border-bottom: 1px solid #5501cc;">Lesson 8 - Fibonacci (improving your system)</a></li>
+    <li><a href="#" style="display: block; padding: 10px; color: #ffffff; text-decoration: none; border-bottom: 1px solid #5501cc;">Lesson 9 - Personalizing the system to fit your lifestyle</a></li>
+    <li><a href="#" style="display: block; padding: 10px; color: #ffffff; text-decoration: none;">Lesson 10 - Backtesting your system</a></li>
+  </ul>
+</details>
+
+
+
+  <article style="text-align: center; padding: 40px; background-color: #000000; color: #ffffff;">
+  <div style="margin-bottom: 20px;">
+    <h2 style="color: #36a8b2;">Upscale Your Trading Skills & Profitability</h2>
+    <small style="color: #36a8b2;">Get access to all you need to become a professional trader in 3 weeks</small>
+  </div>
+  <div style="display: flex; justify-content: center; flex-wrap: wrap; gap: 40px;">
+    <div style="flex: 1; max-width: 200px;">
+      <!-- YouTube Icon -->
+      <svg width="50" height="50" viewBox="0 0 24 24" fill="#36a8b2" xmlns="http://www.w3.org/2000/svg">
+        <path d="M23.5 6.2c-.3-1.2-1.2-2.1-2.4-2.4C19 3.5 12 3.5 12 3.5S5 3.5 2.9 3.8C1.7 4.1.8 5.1.5 6.2.2 7.4.2 12 .5 13.2c.3 1.2 1.2 2.1 2.4 2.4 1.1.3 6.1.3 6.1.3s7 0 7.1 0c1.2.3 2.1 1.2 2.4 2.4.3 1.2.3 5.8.3 5.8s0 4.6-.3 5.8c-.3 1.2-1.2 2.1-2.4 2.4-1.1.3-6.1.3-6.1.3s-7 0-7.1 0c-1.2-.3-2.1-1.2-2.4-2.4-.3-1.2-.3-6.2-.3-6.2s0-5.4.3-6.7c.3-1.2 1.2-2.1 2.4-2.4 1.1-.3 6.1-.3 6.1-.3s7 0 7.1 0c1.2.3 2.1 1.2 2.4 2.4.3 1.3.3 5.8.3 5.8s0 4.5-.3 5.8zM10 15l5-3-5-3v6z"/>
+      </svg>
+      <p style="color: #36a8b2; font-weight: bold;">Over 30+ video lessons</p>
+      <small>Learn each topic at your pace; TA indicators, volatility, and how to develop your trading strategy.</small>
+    </div>
+    <div style="flex: 1; max-width: 200px;">
+      <!-- Video Camera Icon -->
+      <svg width="50" height="50" viewBox="0 0 24 24" fill="#36a8b2" xmlns="http://www.w3.org/2000/svg">
+        <path d="M21 5H5c-1.1 0-1.99.9-1.99 2L3 19c0 1.1.89 2 2 2h16c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2zM12 17l-6-4 6-4v8zm6-2H6V7h12v8z"/>
+      </svg>
+      <p style="color: #36a8b2; font-weight: bold;">Weekly LIVE workshops</p>
+      <small>Join our interactive workshop. Get private access to exclusive trading alpha NOT covered in the course or Q&As.</small>
+    </div>
+    <div style="flex: 1; max-width: 200px;">
+      <!-- Discord Icon -->
+      <svg width="50" height="50" viewBox="0 0 24 24" fill="#36a8b2" xmlns="http://www.w3.org/2000/svg">
+        <path d="M12 1.8c-5.6 0-10.2 4.6-10.2 10.2s4.6 10.2 10.2 10.2 10.2-4.6 10.2-10.2-4.6-10.2-10.2-10.2zm-1.5 15.3c-.5 0-.9-.1-1.3-.3-.3-.2-.5-.5-.6-.8-.1-.3-.2-.6-.2-1 0-.2.1-.5.2-.7.1-.2.3-.4.5-.5.4-.3.9-.5 1.5-.5.5 0 .9.1 1.3.3.3.2.5.5.6.8.1.3.2.6.2 1 0 .2-.1.5-.2.7-.1.2-.3.4-.5.5-.4.2-.8.4-1.3.4zm-3.1-5.4c-.5.2-1 .4-1.6.4-.7 0-1.3-.2-1.8-.5-.5-.3-.8-.8-.9-1.3-.1-.4-.1-.7-.1-1.1 0-.5.1-1 .3-1.4.3-.6.8-1.1 1.4-1.5.6-.4 1.3-.6 2.1-.6.7 0 1.4.2 1.9.5.5.3.8.8.9 1.3.1.4.1.7.1 1.1 0 .5-.1 1-.3 1.4-.3.6-.8 1.1-1.4 1.5zm6.4 0c-.5.2-1 .4-1.6.4-.7 0-1.3-.2-1.8-.5-.5-.3-.8-.8-.9-1.3-.1-.4-.1-.7-.1-1.1 0-.5.1-1 .3-1.4.3-.6.8-1.1 1.4-1.5.6-.4 1.3-.6 2.1-.6.7 0 1.4.2 1.9.5.5.3.8.8.9 1.3.1.4.1.7.1 1.1 0 .5-.1 1-.3 1.4-.3.6-.8 1.1-1.4 1.5z"/>
+      </svg>
+      <p style="color: #36a8b2; font-weight: bold;">24/7 Discord community</p>
+      <small>Connect with a global network of traders, get and share strategies to sharpen your trading edge.</small>
+    </div>
+  </div>
+</article>
+
+
+   
+
+
+  </main>
+
+</body>
+</html>
