@@ -9,28 +9,51 @@
   <link rel="stylesheet" href="./krown.css">
   <style>
   .main-hero {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 20px;
-    padding: 20px;
-    text-align: center;
-  }
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+  padding: 20px;
+  text-align: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://img.freepik.com/free-vector/gradient-network-connection-background_23-2148888453.jpg');
+  background-size: cover;
+  background-position: center;
+}
 
-  .text-content {
-    padding-top: 20px;
-  }
+.text-content {
+  padding-top: 20px;
+}
 
-  .text-content h1 {
-    color: white;
-  }
+.text-content h1 {
+  color: white;
+  font-size: 3.7rem; /* Adjust this size as needed */
+  font-weight: bold;
+}
 
-  .text-content p, .text-content small {
-    color: white;
-  }
+.text-content p, .text-content small {
+  color: white;
+}
+.timer {
+  margin: 20px 0;
+  color: #36a8b2;
+  font-family: 'Courier New', Courier, monospace; /* Monospace font */
+  font-weight: bold; /* Bold font */
+  font-size: 2rem; /* Adjust the size as needed */
+}
 
-  .timer {
-    margin: 20px 0;
-    color: #36a8b2;
+
+/* Rest of your existing styles */
+/* Adjust hero image */
+.main-hero img {
+  width: 100%;
+  height: 100%; /* Make the image fill the height of the section */
+  object-fit: cover; /* Ensure the image covers the entire area */
+  display: block;
+  align-self: end; /* Align the image to the bottom of the section */
+}
+
+.main-hero img {
+    height: auto; /* Reset the height for larger screens */
+    max-height: 100%; /* Ensure the image doesn’t exceed the section height */
   }
 
   .form-container {
@@ -61,7 +84,7 @@
     display: block;
     margin-top: 1rem;
     text-align: center ;
-    color: #555;
+    color: #fff;
   }
 
   @media (min-width: 768px) {
@@ -191,12 +214,12 @@
     <h2 style="text-align: center; padding-top: 30px; padding-bottom: 16px">Supported by the world's most respected trading platforms</h2>
     <div style="margin-top: 20px; display: flex; justify-content: center; align-items: center; flex-wrap: wrap; padding: 20px;">
         <img src="https://school.cryptobanter.com/assets/Prime_XBT_logo_Light-483a9fb3.svg" alt="Logo" style="width: 100px; margin: 10px;">
+        <img src="https://cdn.worldvectorlogo.com/logos/binance.svg" alt="Logo" style="width: 100px; margin: 10px;">
+        <img src="https://cdn.worldvectorlogo.com/logos/crypto-com-1.svg" alt="Logo" style="width: 100px; margin: 10px;">
+        <img src="https://cdn.worldvectorlogo.com/logos/coingecko-1.svg" alt="Logo" style="width: 100px; margin: 10px;">
         <img src="https://school.cryptobanter.com/assets/Prime_XBT_logo_Light-483a9fb3.svg" alt="Logo" style="width: 100px; margin: 10px;">
-        <img src="https://school.cryptobanter.com/assets/Prime_XBT_logo_Light-483a9fb3.svg" alt="Logo" style="width: 100px; margin: 10px;">
-        <img src="https://school.cryptobanter.com/assets/Prime_XBT_logo_Light-483a9fb3.svg" alt="Logo" style="width: 100px; margin: 10px;">
-        <img src="https://school.cryptobanter.com/assets/Prime_XBT_logo_Light-483a9fb3.svg" alt="Logo" style="width: 100px; margin: 10px;">
-        <img src="https://school.cryptobanter.com/assets/Prime_XBT_logo_Light-483a9fb3.svg" alt="Logo" style="width: 100px; margin: 10px;">
-        <img src="https://school.cryptobanter.com/assets/Prime_XBT_logo_Light-483a9fb3.svg" alt="Logo" style="width: 100px; margin: 10px;">
+        <img src="https://cdn.worldvectorlogo.com/logos/piixpay-1.svg" alt="Logo" style="width: 100px; margin: 10px;">
+        <img src="https://cdn.worldvectorlogo.com/logos/juntos-por-el-peru-vero-mendoza-1.svg" alt="Logo" style="width: 100px; margin: 10px;">
         <img src="https://school.cryptobanter.com/assets/Prime_XBT_logo_Light-483a9fb3.svg" alt="Logo" style="width: 100px; margin: 10px;">
         <img src="https://school.cryptobanter.com/assets/Prime_XBT_logo_Light-483a9fb3.svg" alt="Logo" style="width: 100px; margin: 10px; padding-bottom: 10px">
     </div>
@@ -233,7 +256,7 @@
 
      
    <article class="carousel" style="padding:40px; text-align: left;">
-  <h2>Tired of Gambling? Learn From a Top-Tier Expert Trader</h2>
+  <h2 style="text-align:center">Tired of Gambling? <br>Learn From a Top-Tier Expert Trader</h2>
   <div class="carousel-container" style="display: flex; gap: 20px; overflow-x: auto;">  <div class="carousel-item" style="min-width: 200px;">
       <div style="display: flex; align-items: center;">
         <img src="https://www.svgrepo.com/show/239997/star-rate.svg" alt="star reviews" style="filter: invert(31%) sepia(86%) saturate(4465%) hue-rotate(254deg) brightness(89%) contrast(107%); width: 20px;">
@@ -300,7 +323,7 @@
   </div>
   <div class="writeup-section">
     <h6>Your Ultimate Trading Breakthrough</h6>
-    <h2>Your TA into a Smart Tool</h2>
+    <h2>Turn Your TA into a Smart Tool</h2>
     <p>Beat Wall Street at its own game.</p>
     <small>10X your profits using hedge fund models taught in the simplest way.</small>
     <p>Exclusive guidance from professionals</p>
@@ -323,10 +346,6 @@
     <div style="flex: 1; padding: 0 20px; box-sizing: border-box;">
       <h3 style="font-style: italic; color: black;">No Emotion</h3>
       <small style="color: black;">Trade based on data, not gut feeling</small>
-    </div>
-    <div style="flex: 1; padding: 0 20px; box-sizing: border-box;">
-      <h3 style="font-style: italic; color: black;">Master Price Prediction</h3>
-      <small style="color: black;">Use Mathematical price models & frameworks</small>
     </div>
     <div style="flex: 1; padding: 0 20px; box-sizing: border-box;">
       <h3 style="font-style: italic; color: black;">Bespoke</h3>
